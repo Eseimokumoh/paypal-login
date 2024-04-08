@@ -1,0 +1,76 @@
+.home {
+    display: flex;
+        text-align: center;
+        background: white;
+        max-width: 80vw; /* 100% of the viewport width */
+        max-height: 80vh; /* 100% of the viewport height */
+        margin: 40px; /* Remove default margin to ensure full coverage */
+        padding: 0; /* Remove default padding */
+}
+
+.left {
+    flex: 1;
+    background: #eceef0;
+    max-width: 40vw; /* 100% of the viewport width */
+    max-height: 60vh; /* 100% of the viewport height */
+    padding: 50px;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.right {
+    flex: 1;
+    flex-direction: column;
+}
+
+.right>h3{
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: large;
+}
+
+h1 {
+    font-size:xx-large;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.ip {
+    padding: 10px;
+    border: 4px solid orange;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.warning {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.btn {
+    width: 20vw;
+    height: 7vh;
+    border-radius: 8px;
+    background: #0070BA;
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    border: 0px;
+    padding: 10px 100px;
+    font-size: x-large;
+    cursor: pointer;
+}
